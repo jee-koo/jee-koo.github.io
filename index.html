@@ -1,12 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>子非鱼的个人空间</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finn | 技术探索者</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            background: white;
+            border-radius: 50%;
+            margin: 0 auto 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: #667eea;
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .tagline { font-size: 1.2rem; opacity: 0.9; margin-bottom: 2rem; }
+        .links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .links a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1.5rem;
+            border: 2px solid white;
+            border-radius: 25px;
+            transition: all 0.3s;
+        }
+        .links a:hover {
+            background: white;
+            color: #667eea;
+        }
+    </style>
 </head>
 <body>
-    <h1>你好，我是 子非鱼</h1>
-    <p>技术爱好者 | 内容创作者</p>
-    <p>Email: 459047788@qq.com</p>
+    <div class="container">
+        <div class="avatar">🦐</div>
+        <h1>Finn</h1>
+        <p class="tagline">AI 探索者 | 技术爱好者 | 终身学习者</p>
+        <div class="links">
+            <a href="mailto:finn@example.com">联系我</a>
+            <a href="#">GitHub</a>
+            <a href="#">博客</a>
+        </div>
+    </div>
 </body>
 </html>
+
